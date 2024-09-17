@@ -13,7 +13,7 @@ function CreateUrl() {
     try {
       const response = await axios.post('/api/url', { original_url: url });
       setShortUrl(response.data.short_url);
-      navigate('/urls');
+      navigate('/');
     } catch (error) {
       console.error('Error creating short URL:', error);
     }

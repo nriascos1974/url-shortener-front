@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import './styles.css';
 import { useNavigate } from 'react-router-dom';
+import { ImBin, ImRedo2 } from "react-icons/im";
+
 
 function UrlList() {
   const [urls, setUrls] = useState([]);
@@ -88,10 +90,10 @@ function UrlList() {
           <td>{`/${url.short_url}`}</td>
           <td>
             <button onClick={() => handleRedirect(url.short_url)} className="action-button go-button">
-              Go to Short URL
+            {<ImRedo2 />}
             </button>
             <button onClick={() => handleDelete(url.id)} className="action-button delete-button">
-              Delete
+              {<ImBin />}
             </button>
           </td>
         </tr>

@@ -1,0 +1,141 @@
+/* General Styles */
+.body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Container centering */
+.container {
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.headerTitle {
+  font-size: 2rem;
+  color: #333;
+}
+
+.addButton {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.addButtonHover {
+  background-color: #45a049;
+}
+
+/* Table Styles */
+.styledTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 1rem;
+  text-align: left;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+.styledTableTheadTr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styledTableTh,
+.styledTableTd {
+  padding: 12px 15px;
+  word-break: break-word;
+}
+
+.styledTableTbodyTr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styledTableTbodyTrEven {
+  background-color: #f3f3f3;
+}
+
+.styledTableTbodyTrLast {
+  border-bottom: 2px solid #009879;
+}
+
+.styledTableTbodyTrHover {
+  background-color: #f1f1f1;
+}
+
+/* Action Buttons */
+.actionButtons {
+  display: flex;
+}
+
+.actionButton {
+  padding: 8px 12px;
+  margin-right: 10px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  position: relative;
+}
+
+.goButton {
+  background-color: #2196F3;
+  padding: 10px 10px;
+  margin: .5px auto;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.goButton:Hover {
+  background-color: #1e7cc3;
+}
+
+.deleteButton {
+  background-color: #f44336;
+  margin: .5px auto;
+  padding: 10px 10px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.deleteButton:Hover {
+  background-color: #d32f2f;
+}
+
+.waitMessage {
+  font-size: 1.5rem;
+  color: #333;
+  margin-top: 50px;
+  text-align: center;
+}

@@ -1,4 +1,4 @@
-## About Proyect Frontend Url Shortener Front
+## About Project Frontend Url Shortener Front
 
 Este proyecto fue desarrollado con REACT, para la creacion de URLs cortas a partir de una URL valida, para ejecutarlo siga los pasos a continuacion:
 para poder ejecutarlo localmente, siga los pasos descritos a continuacion:

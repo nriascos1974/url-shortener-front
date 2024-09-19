@@ -6,8 +6,8 @@ import axios from "axios"
 import App from './App';
 
 
-axios.defaults.baseURL = "http://localhost:8000"
-//axios.defaults.baseURL = "https://back-pi-food-production-91e8.up.railway.app"
+//axios.defaults.baseURL = "http://localhost:8000"// Desarrollo
+axios.defaults.baseURL = "http://3.16.31.240:80"//Produccion
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
